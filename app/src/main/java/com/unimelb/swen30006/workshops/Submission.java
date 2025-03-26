@@ -1,7 +1,11 @@
 package com.unimelb.swen30006.workshops;
 
+import java.util.*;
+
 // Sample private submission class to be replaced by your implementation
 class Submission {
+    int attemptNum;
+    List<File> files = new ArrayList<>();
     // Return two fake files
     public File[] includedFiles(){
         File[] files = new File[2];
@@ -9,4 +13,6 @@ class Submission {
         files[1] = new File();
         return files;
     }
+
+
 }
